@@ -1,0 +1,44 @@
+IMAGE
+
+Input Image
+      │
+      ▼
+Validate
+      │
+      ▼
+Load (OpenCV)
+      │
+      ▼
+Resize
+      │
+      ▼
+Normalize
+      │
+      ▼
+Tensor
+      │
+      ▼
+YOLO
+
+
+AUDIO
+
+Input Audio
+      │
+      ▼
+Validate
+      │
+      ▼
+Load (Librosa)
+      │
+      ▼
+Resample
+      │
+      ▼
+Normalize
+      │
+      ▼
+Tensor
+      │
+      ▼
+Whisper
