@@ -1,0 +1,5 @@
+const checksum =
+
+    await computeSHA256(file);
+
+console.log(checksum);
