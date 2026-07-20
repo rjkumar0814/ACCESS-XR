@@ -1,0 +1,50 @@
+name: access-xr
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.10
+
+  # Deep Learning
+  - pytorch=2.4
+  - torchvision=0.19
+  - torchaudio=2.4
+
+  # Scientific Computing
+  - numpy=1.26
+  - scipy=1.13
+  - pandas=2.2
+  - scikit-learn=1.5
+
+  # Computer Vision
+  - opencv
+  - pillow
+
+  # Visualization
+  - matplotlib
+  - plotly
+
+  # Utilities
+  - tqdm
+  - pyyaml
+  - requests
+
+  # Development
+  - pip
+
+  - pip:
+      - fastapi>=0.115
+      - uvicorn[standard]>=0.30
+      - ultralytics>=8.3
+      - openai-whisper
+      - python-multipart
+      - pydantic>=2.8
+      - psutil
+      - pytest
+      - black
+      - flake8
+      - isort
