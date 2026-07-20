@@ -1,0 +1,20 @@
+Browser
+     │
+     ▼
+index.html
+     │
+     ▼
+main.tsx
+     │
+     ├──────────────► ReactDOM.createRoot()
+     │
+     ├──────────────► ThemeProvider
+     │
+     ├──────────────► CssBaseline
+     │
+     ├──────────────► SnackbarProvider
+     │
+     ├──────────────► BrowserRouter
+     │
+     ▼
+    App.tsx
