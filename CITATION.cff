@@ -12,13 +12,12 @@ authors:
     given-names: "S. C."
     affiliation: "Anna University Regional Campus Madurai, India"
     email: "rajkumar@autmdu.in"
-    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+    
 
   - family-names: "Desiato"
     given-names: "Domenico"
     affiliation: "University of Bari Aldo Moro, Italy"
-    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
-
+    
   - family-names: "Yuvasini"
     given-names: "D."
     affiliation: "Thiagarajar College of Engineering, India"
@@ -27,9 +26,9 @@ authors:
     given-names: "T."
     affiliation: "Thiagarajar College of Engineering, India"
 
-repository-code: "https://github.com/<username>/ACCESS-XR"
+repository-code: "https://github.com/rjkumar0814/ACCESS-XR"
 
-url: "https://github.com/<username>/ACCESS-XR"
+url: "https://github.com/rjkumar0814/ACCESS-XR"
 
 abstract: >
   ACCESS-XR is a unified multimodal communication framework for
