@@ -1,0 +1,90 @@
+{
+  "name": "access-xr-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend for ACCESS-XR: A Unified Multimodal System for Inclusive and Accessible Communication in Extended Reality",
+  "author": "ACCESS-XR Authors",
+  "license": "MIT",
+
+  "type": "module",
+
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx",
+    "format": "prettier --write .",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+
+  "dependencies": {
+
+    "axios": "^1.7.7",
+
+    "react": "^18.3.1",
+
+    "react-dom": "^18.3.1",
+
+    "react-router-dom": "^6.28.0",
+
+    "react-hook-form": "^7.53.0",
+
+    "@mui/material": "^6.1.5",
+
+    "@mui/icons-material": "^6.1.5",
+
+    "@emotion/react": "^11.13.3",
+
+    "@emotion/styled": "^11.13.0",
+
+    "framer-motion": "^11.11.10",
+
+    "react-dropzone": "^14.3.5",
+
+    "react-webcam": "^7.2.0",
+
+    "zustand": "^5.0.0",
+
+    "recharts": "^2.13.0",
+
+    "notistack": "^3.0.2"
+  },
+
+  "devDependencies": {
+
+    "@types/react": "^18.3.12",
+
+    "@types/react-dom": "^18.3.1",
+
+    "@vitejs/plugin-react": "^4.3.3",
+
+    "typescript": "^5.6.3",
+
+    "vite": "^5.4.10",
+
+    "eslint": "^9.13.0",
+
+    "@typescript-eslint/parser": "^8.11.0",
+
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+
+    "eslint-plugin-react": "^7.37.2",
+
+    "eslint-plugin-react-hooks": "^5.1.0",
+
+    "prettier": "^3.3.3",
+
+    "vitest": "^2.1.4",
+
+    "@testing-library/react": "^16.0.1",
+
+    "@testing-library/jest-dom": "^6.6.3",
+
+    "@testing-library/user-event": "^14.5.2",
+
+    "jsdom": "^25.0.1",
+
+    "@vitest/coverage-v8": "^2.1.4"
+  }
+}
