@@ -1,0 +1,76 @@
+cff-version: 1.2.0
+message: >
+  If you use ACCESS-XR in your research, please cite both the
+  associated publication and this software repository.
+
+title: "ACCESS-XR: A Unified Multimodal System for Inclusive and Accessible Communication in Extended Reality"
+
+type: software
+
+authors:
+  - family-names: "Rajkumar"
+    given-names: "S. C."
+    affiliation: "Anna University Regional Campus Madurai, India"
+    email: "rajkumar@autmdu.in"
+    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+
+  - family-names: "Desiato"
+    given-names: "Domenico"
+    affiliation: "University of Bari Aldo Moro, Italy"
+    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+
+  - family-names: "Yuvasini"
+    given-names: "D."
+    affiliation: "Thiagarajar College of Engineering, India"
+
+  - family-names: "Suba Nachiar"
+    given-names: "T."
+    affiliation: "Thiagarajar College of Engineering, India"
+
+repository-code: "https://github.com/<username>/ACCESS-XR"
+
+url: "https://github.com/<username>/ACCESS-XR"
+
+abstract: >
+  ACCESS-XR is a unified multimodal communication framework for
+  inclusive and accessible interaction in Extended Reality (XR).
+  The framework integrates gesture recognition, automatic speech
+  recognition, semantic translation, and uncertainty-aware
+  decision-level fusion to enable real-time multimodal communication.
+
+keywords:
+  - Extended Reality
+  - XR
+  - Virtual Reality
+  - Accessibility
+  - Gesture Recognition
+  - Speech Recognition
+  - Multimodal AI
+  - Deep Learning
+  - YOLOv8
+  - Whisper
+  - Computer Vision
+
+license: MIT
+
+version: "1.0.0"
+
+date-released: "2026-01-01"
+
+doi: "10.xxxx/xxxxx"
+
+preferred-citation:
+  type: article
+  title: "ACCESS-XR: A Unified Multimodal System for Inclusive and Accessible Communication in Extended Reality"
+  authors:
+    - family-names: "Rajkumar"
+      given-names: "S. C."
+    - family-names: "Desiato"
+      given-names: "Domenico"
+    - family-names: "Yuvasini"
+      given-names: "D."
+    - family-names: "Suba Nachiar"
+      given-names: "T."
+  journal: "Virtual Reality"
+  year: 2026
+  doi: "10.xxxx/xxxxx"
