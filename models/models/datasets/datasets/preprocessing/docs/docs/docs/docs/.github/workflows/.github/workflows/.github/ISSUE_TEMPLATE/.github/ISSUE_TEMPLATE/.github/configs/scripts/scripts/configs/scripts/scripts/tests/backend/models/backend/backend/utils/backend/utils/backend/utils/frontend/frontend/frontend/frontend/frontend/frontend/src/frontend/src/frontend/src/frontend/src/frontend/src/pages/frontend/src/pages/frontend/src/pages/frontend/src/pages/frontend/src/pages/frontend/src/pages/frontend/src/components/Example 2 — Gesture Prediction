@@ -1,0 +1,13 @@
+const speechApi = useApi(
+
+    () => recognizeSpeech(audioFile),
+
+    {
+
+        retries: 1,
+
+    }
+
+);
+
+await speechApi.execute();
