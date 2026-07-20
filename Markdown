@@ -1,0 +1,41 @@
+# ACCESS-XR
+
+Official implementation of **ACCESS-XR: A Unified Multimodal System for Inclusive and Accessible Communication in Extended Reality**.
+
+---
+
+## Overview
+
+ACCESS-XR is a unified multimodal communication framework designed to improve accessibility and inclusivity in Extended Reality (XR) environments. The framework integrates gesture recognition, speech understanding, semantic translation, and uncertainty-aware decision-level fusion to enable seamless interaction among users with diverse communication abilities.
+
+The system combines computer vision, automatic speech recognition, semantic reasoning, and real-time XR rendering within a modular architecture suitable for edge and cloud deployment.
+
+---
+
+## Key Features
+
+- Lightweight attention-enhanced YOLOv8 gesture recognition
+- Whisper-based automatic speech recognition with entropy-aware confidence estimation
+- Fuzzy semantic mapping for multimodal translation
+- Uncertainty-aware decision-level fusion
+- Real-time multimodal communication
+- FastAPI backend
+- React Native frontend
+- Edge/cloud deployment support
+- Modular architecture for future multimodal foundation models
+
+---
+
+## Repository Structure
+
+```text
+ACCESS-XR/
+├── frontend/
+├── backend/
+├── models/
+├── datasets/
+├── configs/
+├── scripts/
+├── docs/
+├── tests/
+└── notebooks/
