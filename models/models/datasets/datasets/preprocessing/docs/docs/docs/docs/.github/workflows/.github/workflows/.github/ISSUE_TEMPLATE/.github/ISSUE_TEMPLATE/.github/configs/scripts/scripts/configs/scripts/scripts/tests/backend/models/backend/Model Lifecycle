@@ -1,0 +1,25 @@
+Application Startup
+        │
+        ▼
+Initialize ModelLoader
+        │
+        ▼
+First Inference Request
+        │
+        ├───────────────► Gesture Model Loaded (Cached)
+        │
+        ├───────────────► Speech Model Loaded (Cached)
+        │
+        └───────────────► Fusion Model Initialized
+                              │
+                              ▼
+                    Subsequent Requests
+                              │
+                              ▼
+                      Reuse Cached Models
+                              │
+                              ▼
+                     Application Shutdown
+                              │
+                              ▼
+                      Release GPU/CPU Memory
