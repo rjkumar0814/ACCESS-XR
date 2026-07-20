@@ -1,0 +1,353 @@
+/******************************************************************************
+ * ACCESS-XR
+ * Global Stylesheet
+ ******************************************************************************/
+
+/* ==========================================================================
+   CSS Variables
+   ========================================================================== */
+
+:root {
+
+    --color-primary: #1976d2;
+    --color-primary-dark: #1565c0;
+
+    --color-secondary: #26a69a;
+
+    --color-success: #2e7d32;
+    --color-warning: #ed6c02;
+    --color-error: #d32f2f;
+
+    --background: #f5f7fa;
+    --surface: #ffffff;
+
+    --text-primary: #1f2937;
+    --text-secondary: #6b7280;
+
+    --border: #e5e7eb;
+
+    --radius: 12px;
+
+    --shadow-sm:
+        0 2px 8px rgba(0,0,0,0.05);
+
+    --shadow-md:
+        0 6px 18px rgba(0,0,0,0.08);
+
+    --transition:
+        all 0.25s ease;
+
+}
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    min-height: 100vh;
+
+    background: var(--background);
+
+    color: var(--text-primary);
+
+    font-family:
+
+        "Inter",
+
+        "Roboto",
+
+        Arial,
+
+        sans-serif;
+
+    line-height: 1.6;
+
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+a {
+
+    color: inherit;
+
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    color: var(--color-primary);
+
+}
+
+/* ==========================================================================
+   Images
+   ========================================================================== */
+
+img {
+
+    display: block;
+
+    max-width: 100%;
+
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+button {
+
+    cursor: pointer;
+
+    transition: var(--transition);
+
+}
+
+button:disabled {
+
+    cursor: not-allowed;
+
+    opacity: 0.6;
+
+}
+
+/* ==========================================================================
+   Inputs
+   ========================================================================== */
+
+input,
+textarea,
+select {
+
+    font: inherit;
+
+}
+
+/* ==========================================================================
+   Accessibility
+   ========================================================================== */
+
+:focus-visible {
+
+    outline: 3px solid var(--color-primary);
+
+    outline-offset: 2px;
+
+}
+
+/* ==========================================================================
+   Scrollbar
+   ========================================================================== */
+
+::-webkit-scrollbar {
+
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+
+    background: #eceff1;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #90a4ae;
+
+    border-radius: 999px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: #607d8b;
+
+}
+
+/* ==========================================================================
+   Layout Utilities
+   ========================================================================== */
+
+.container {
+
+    max-width: 1280px;
+
+    margin: auto;
+
+    padding: 24px;
+
+}
+
+.flex {
+
+    display: flex;
+
+}
+
+.flex-column {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.flex-center {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.grid {
+
+    display: grid;
+
+}
+
+.grid-2 {
+
+    display: grid;
+
+    grid-template-columns:
+
+        repeat(2, 1fr);
+
+    gap: 24px;
+
+}
+
+.grid-3 {
+
+    display: grid;
+
+    grid-template-columns:
+
+        repeat(3, 1fr);
+
+    gap: 24px;
+
+}
+
+/* ==========================================================================
+   Spacing Utilities
+   ========================================================================== */
+
+.mt-1 { margin-top: 8px; }
+
+.mt-2 { margin-top: 16px; }
+
+.mt-3 { margin-top: 24px; }
+
+.mt-4 { margin-top: 32px; }
+
+.mb-1 { margin-bottom: 8px; }
+
+.mb-2 { margin-bottom: 16px; }
+
+.mb-3 { margin-bottom: 24px; }
+
+.mb-4 { margin-bottom: 32px; }
+
+/* ==========================================================================
+   Cards
+   ========================================================================== */
+
+.card {
+
+    background: var(--surface);
+
+    border-radius: var(--radius);
+
+    box-shadow: var(--shadow-md);
+
+    padding: 24px;
+
+}
+
+/* ==========================================================================
+   Animation
+   ========================================================================== */
+
+.fade-in {
+
+    animation: fadeIn 0.4s ease;
+
+}
+
+@keyframes fadeIn {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(8px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+/* ==========================================================================
+   Responsive Design
+   ========================================================================== */
+
+@media (max-width: 900px) {
+
+    .grid-2,
+    .grid-3 {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .container {
+
+        padding: 16px;
+
+    }
+
+}
