@@ -1,0 +1,12 @@
+{
+  "intent": "Greeting",
+  "confidence": 0.98,
+  "gesture": {
+    "label": "HELLO",
+    "confidence": 0.97
+  },
+  "speech": {
+    "text": "Hello",
+    "confidence": 0.96
+  }
+}
