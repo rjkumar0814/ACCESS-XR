@@ -1,0 +1,9 @@
+{
+    "timestamp": "2026-01-12T10:22:34.125412",
+    "level": "INFO",
+    "logger": "access-xr",
+    "message": "API started",
+    "module": "main",
+    "function": "startup",
+    "line": 45
+}
