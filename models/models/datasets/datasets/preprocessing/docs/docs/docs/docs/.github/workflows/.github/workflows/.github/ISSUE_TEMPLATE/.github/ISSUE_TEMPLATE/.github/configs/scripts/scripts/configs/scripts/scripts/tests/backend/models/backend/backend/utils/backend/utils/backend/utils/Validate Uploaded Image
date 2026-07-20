@@ -1,0 +1,11 @@
+from backend.utils.validators import (
+    validate_image_type,
+)
+
+if not validate_image_type(
+    image.content_type
+):
+    raise HTTPException(
+        status_code=415,
+        detail="Unsupported image type.",
+    )
