@@ -1,0 +1,11 @@
+const dimensions =
+
+    await loadImageDimensions(file);
+
+console.log(
+
+    dimensions.width,
+
+    dimensions.height
+
+);
