@@ -1,0 +1,11 @@
+from backend.utils.validators import (
+    sanitize_filename,
+)
+
+safe_name = sanitize_filename(
+    "../../../image.png"
+)
+
+print(safe_name)
+
+# image.png
