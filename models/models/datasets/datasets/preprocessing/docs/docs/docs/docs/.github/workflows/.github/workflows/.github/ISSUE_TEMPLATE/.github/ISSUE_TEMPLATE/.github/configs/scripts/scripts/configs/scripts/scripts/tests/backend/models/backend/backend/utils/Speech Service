@@ -1,0 +1,6 @@
+from backend.utils.preprocessing import preprocess_audio
+
+waveform = preprocess_audio(
+    audio_path,
+    sample_rate=16000,
+)
