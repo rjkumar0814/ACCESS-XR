@@ -1,0 +1,20 @@
+               +----------------+
+Image -------->| Gesture Model  |
+               +----------------+
+                       |
+                       |
+                       v
+                 Gesture Output
+                       |
+                       |
+                       |            +----------------+
+                       +----------->| Fusion Engine  |------> Final Prediction
+                       |            +----------------+
+                       |
+                       v
+                 Speech Output
+                       ^
+                       |
+               +----------------+
+Audio -------->| Speech Model   |
+               +----------------+
