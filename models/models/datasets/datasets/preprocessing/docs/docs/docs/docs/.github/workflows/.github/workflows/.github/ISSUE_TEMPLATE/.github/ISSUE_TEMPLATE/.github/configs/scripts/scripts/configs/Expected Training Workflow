@@ -1,0 +1,34 @@
+Load Configuration
+        │
+        ▼
+Initialize Random Seeds
+        │
+        ▼
+Select CPU / GPU
+        │
+        ▼
+Load Gesture Dataset
+        │
+        ▼
+Load Speech Dataset
+        │
+        ▼
+Initialize Models
+        │
+        ▼
+Initialize Fusion Network
+        │
+        ▼
+Create Optimizer
+        │
+        ▼
+Training Loop
+        │
+        ▼
+Validation
+        │
+        ▼
+Save Checkpoint
+        │
+        ▼
+Repeat Until Completion
