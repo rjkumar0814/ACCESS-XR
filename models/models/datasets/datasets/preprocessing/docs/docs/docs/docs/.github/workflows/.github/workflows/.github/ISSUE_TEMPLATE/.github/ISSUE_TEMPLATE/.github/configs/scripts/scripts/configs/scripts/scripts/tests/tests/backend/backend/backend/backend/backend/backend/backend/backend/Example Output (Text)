@@ -1,0 +1,4 @@
+2026-01-12 10:22:34 | INFO     | access-xr | API started
+2026-01-12 10:22:41 | INFO     | access-xr | Loaded gesture model
+2026-01-12 10:22:43 | WARNING  | access-xr | Missing audio input
+2026-01-12 10:22:44 | ERROR    | access-xr | Prediction failed
