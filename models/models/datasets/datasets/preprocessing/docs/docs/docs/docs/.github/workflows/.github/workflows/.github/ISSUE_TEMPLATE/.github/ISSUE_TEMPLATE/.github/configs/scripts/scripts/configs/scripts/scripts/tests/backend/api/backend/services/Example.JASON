@@ -1,0 +1,15 @@
+{
+    "prediction": "Hello",
+    "confidence": 0.981,
+    "modality": "gesture+speech",
+    "gesture": {
+        "label": "HELLO",
+        "confidence": 0.987
+    },
+    "speech": {
+        "text": "Hello",
+        "confidence": 0.975,
+        "language": "en"
+    },
+    "explanation": "Prediction obtained using multimodal decision-level fusion."
+}
